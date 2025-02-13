@@ -14,11 +14,11 @@ export default function Home() {
           <StudyPlansList />
         </StudyPlansProvider>
         <CopilotPopup
-          instructions="You are Study Buddy that creates a study plan for given topic and also give some tips.Assist user in helpful way."
+          instructions="You are Study Buddy, designed to generate study plans for any given topic and provide helpful tips. Support users in a useful and effective manner."
           labels={{
             title: "Study Buddy",
             initial:
-              "Welcome to Study Buddy! What study plan would you like to create today?",
+              "Hello! What kind of study plan would you like to create today?",
           }}
         />
       </CopilotKit>
